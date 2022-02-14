@@ -9,10 +9,19 @@ main section#jumbotron{
 }
 
 main section#jumbotron .my-box{
-    background-color: blue;
-    height: 400px;
-    width: 800px;
     margin: 0 auto;
+    line-height: 50px;
+}
+
+main section#jumbotron .my-box img#avatar{
+    width: 20%;
+}
+
+main section#jumbotron .my-box .my-contain-star .my-line{
+    background-color: white;
+    height: 3px;
+    width: 9%;
+    
 }
 
 main section#portfolio{
@@ -65,10 +74,11 @@ footer div#my-footer-bottom{
 
 footer div#my-footer-bottom .my-box{
     background-color: violet;
-    height: 200px;
+    height: 80px;
     width: 800px;
     margin: 0 auto;
 }
+
 
 
 
