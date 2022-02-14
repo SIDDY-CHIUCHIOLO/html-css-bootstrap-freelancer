@@ -1,38 +1,76 @@
 
-header .my-contain-header{
-    background-color: #2c3e50; 
-    height: 20vh;
+header {
+    background-color: #2c3e50;
+    height: 80px;
+}
+
+main section#jumbotron{
+    background-color: #1abc9c;
+}
+
+main section#jumbotron .my-box{
+    background-color: blue;
+    height: 400px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+main section#portfolio{
+    background-color: white;
+}
+
+main section#portfolio .my-box{
+    background-color: red;
+    height: 400px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+main section#about{
+    background-color: #1abc9c;
+}
+
+main section#about .my-box{
+    background-color: yellow;
+    height: 350px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+main section#contact{
+    background-color: white;
+}
+
+main section#contact .my-box{
+    background-color: orange;
+    height: 400px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+footer div#my-footer-top{
+    background-color: #3a546d;
+}
+
+footer div#my-footer-top .my-box{
+    background-color: pink;
+    width: 800px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+footer div#my-footer-bottom{
+    background-color: #2c3e50;
+}
+
+footer div#my-footer-bottom .my-box{
+    background-color: violet;
+    height: 200px;
+    width: 800px;
+    margin: 0 auto;
 }
 
 
-main section .my-contain-jumbotron{
-    background-color: #1abc9c; 
-    height: 50vh;
-}
-
-main section .my-contain-portfolio{
-    background-color: white; 
-    height: 70vh;
-}
 
 
-main section .my-contain-about{
-    background-color: #1abc9c; 
-    height: 50vh;
-}
 
-main section .my-contain-contact{
-    background-color: white; 
-    height: 60vh;
-}
-
-footer .my-contain-info{
-    background-color: #3a546d; 
-    height: 40vh;
-}
-
-
-footer .my-contain-copyright{
-    background-color: #2c3e50; 
-    height: 20vh;
-}
