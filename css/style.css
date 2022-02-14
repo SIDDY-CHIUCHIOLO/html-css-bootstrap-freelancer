@@ -4,13 +4,12 @@ header {
     height: 80px;
 }
 
-main section#jumbotron{
-    background-color: #1abc9c;
+main section{
+    padding: 50px 0;
 }
 
-main section#jumbotron .my-box{
-    margin: 0 auto;
-    line-height: 50px;
+main section#jumbotron{
+    background-color: #1abc9c;
 }
 
 main section#jumbotron .my-box img#avatar{
@@ -28,22 +27,31 @@ main section#portfolio{
     background-color: white;
 }
 
-main section#portfolio .my-box{
-    background-color: red;
-    height: 400px;
-    width: 800px;
+main section#portfolio .my-box .my-contain-star .my-line{
+    background-color: black;
+    height: 3px;
+    width: 9%;
+}
+
+main section#portfolio .my-box #my-contain-card{
+    width: 80%;
     margin: 0 auto;
+}
+
+main section#portfolio .my-box #my-contain-card img{
+    width: calc(100% / 3);
+    padding: 1%;
+    border-image: round;
 }
 
 main section#about{
     background-color: #1abc9c;
 }
 
-main section#about .my-box{
-    background-color: yellow;
-    height: 350px;
-    width: 800px;
-    margin: 0 auto;
+main section#about .my-box .my-contain-star .my-line{
+    background-color: white;
+    height: 3px;
+    width: 9%;
 }
 
 main section#contact{
